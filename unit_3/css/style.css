@@ -3,6 +3,32 @@ body {
   color: #1C3954;
 }
 
+#sign_up {
+    float: right;
+    top: 700px;
+    background-color: #D64A29;
+    color: #F3F1F0;
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    display: inline-block;
+}
+
+#log_in {
+  float: right;
+  top: 700px;
+  background-color: #F3F1F0;
+  color: #D64A29;
+  padding: 10px 15px 10px 15px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  display: inline-block;
+}
+
 #logo {
   display: block;
   margin: auto;
@@ -18,6 +44,7 @@ body {
 }
 nav {
   text-align:center;
+  border: 1px solid #1C3954;
 }
 nav a {
   display:inline-block;
@@ -31,9 +58,6 @@ nav a {
 
 #home {
   color: #1C3954;
-}
-
-.img {
 }
 
 #hero {
@@ -86,23 +110,24 @@ nav a {
   display: block;
 }
 
-.search {
+.filter {
   color: #D64A29;
+  background-color: #1C3954;
   font-size: 25px;
   font-family: Georgia;
   display: block;
-  float: right;
-  margin-left: 1cm;
-  margin-right: 1cm;
-  margin-top: 0.5cm;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 45px;
   padding: 5px 5px 5px 5px;
+  border: 1px solid #1C3954;
 }
 
 .dropdown1 {
   border: 1px solid #1C3954;
   position: relative;
   display: inline-block;
-  background: #1C3954;
+  background: #F3F1F0;
   vertical-align: top;
 }
 
@@ -137,7 +162,8 @@ nav a {
   border: 1px solid #1C3954;
   position: relative;
   display: inline-block;
-  background: #1C3954
+  background: #F3F1F0;
+  vertical-align: top;
 }
 
 .dropdown2 p {
@@ -170,17 +196,155 @@ nav a {
 #search_button {
   background-color: #D64A29;
   color: #F3F1F0;
-  padding: 15px 15px 15px 15px;
+  margin-left: 10px;
+  padding: 30px 40px 30px 40px;
   border-radius: 25px;
-  font-size: 15px;
+  font-size: 25px;
   font-family: Helvetica;
   font-weight: lighter;
   display: inline-block;
+  vertical-align: top;
 }
 
 .features {
   float: left;
-  margin-top: 5cm;
+  margin-left: 45px;
+  margin-top: 45px;
+  display: inline-block;
+}
+
+.board {
+  display: inline-block;
+  border: 1px solid #979797;
+  border-radius: 25px;
+  color: #D64A29;
+  background-color: rgba(28,57,84,1);
+  font-size: 25px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+  vertical-align: top;
+}
+
+.new {
+  display: inline-block;
+  border: 1px solid #979797;
+  border-radius: 25px;
+  color: #D64A29;
+  background-color: rgba(28,57,84,1);
+  font-size: 25px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+  vertical-align: top;
+}
+
+.subscribe {
+  display: inline-block;
+  border: 1px solid #979797;
+  border-radius: 25px;
+  color: #D64A29;
+  background-color: rgba(28,57,84,1);
+  font-size: 25px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+  vertical-align: top;
+}
+
+.ad {
+  font-size: 25px;
+  display: inline-block;
+  padding: 45px 900px 50px 100px;
+  border: 1px solid #979797;
+  float: left;
+  margin-top: 45px;
+  margin-left: 45px;
+}
+
+.create_own {
+  vertical-align: top;
+  position: relative;
+  margin-top: 725px;
+  margin-left: 45px;
+  margin-right: 45px;
+  padding: 30px 50px 50px 50px;
+  height: 940px;
+  border: 3px solid #979797;
+}
+
+#go_ahead {
+  vertical-align: top;
+  margin-bottom: 40px;
+}
+
+#butterbeer {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#groot {
+  margin-left: 425px;
+  position: absolute;
+  width: 400px;
+  height: 350px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#buffy {
+  margin-top: 325px;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  vertical-align: top;
+  padding: 10px 30px 0px 0px;
+  display: inline-block;
+}
+
+#tarts {
+  margin-left: 850px;
+  position: absolute;
+  width: 385px;
+  height: 250px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#pasta {
+  position: absolute;
+  margin-top: 385px;
+  margin-left: 425px;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#soup {
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 850px;
+  width: 385px;
+  height: 275px;
+  vertical-align: top;
+  display: inline-block
+}
+
+#meatloaf {
+  position: absolute;
+  margin-top: 590px;
+  margin-left: 850px;
+  width: 385px;
+  height: 270px;
+  vertical-align: top;
+  display: inline-block
 }
 
 .email {
