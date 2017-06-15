@@ -151,7 +151,7 @@ body {
   position: absolute;
   display: block;
   top: 17.35em;
-  width: 6.5em;
+  width: 13em;
   color: #1C3954;
   margin-left: 2.75em;
   letter-spacing: 0.038em;
@@ -160,16 +160,15 @@ body {
   font-family: 'Permanent Marker', cursive;
   text-transform: uppercase;
   background-color: rgba(255,255,255,0.8);
-  padding: 0.3em 0.6em 0.05em 0.6em;
+  padding: 0.5em 0.3em 0.5em 0.3em;
 }
 
 #herodescription {
   font-family: 'Open Sans', sans-serif;
   position: absolute;
-  top: 36.1em;
-  width: 17.45em;
+  top: 39.5em;
+  width: 45%;
   rgba: #1C3954;
-  margin-left: 4.8em;
   line-height: 1.5em;
   letter-spacing: 0.038em;
   font-size: 20px;
