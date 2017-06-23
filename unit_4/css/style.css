@@ -12,6 +12,7 @@ body {
   width: 15%;
   float: left;
   margin-top: 0.1em;
+  padding: 1em;
 }
 
 .account {
@@ -19,20 +20,21 @@ body {
     margin-right: 2.5em;
     padding-right: 1em;
     vertical-align: top;
+    padding: 1em;
 }
 
 #sign_up {
   float: right;
   background-color: #D64A29;
   color: #F3F1F0;
-  padding: 1em 2em 1em 2em;
-  margin-left: 1em;
-  margin-right: 0.5em;
+  padding: 0.5em 1em;
+  margin: 0em 1em;
   border-radius: 25px;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
-  display: inline-block;
+  display: block;
+  text-decoration: none;
 }
 
 #log_in {
@@ -40,90 +42,71 @@ body {
   background-color: white;
   color: #1C3954;
   border: 1px solid #1C3954;
-  padding: 1em 2em 1em 2em;
-  margin-left: 1em;
+  padding: 0.5em 1em;
+  margin: 0em 1em;
   border-radius: 25px;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
-  display: inline-block;
+  display: block;
+  text-decoration: none;
 }
 
-#header {
+header {
   margin: auto;
 }
 
 .search_box {
-  padding: 0.5em 1em 1em 1em;
+  padding: 1em;
   display: block;
 }
 
 .searching {
   float: right;
+  display: inline-block;
 }
 
 .search_1 {
   font-size: 16px;
 }
 
-.nav {
+.menu {
   background-color: white;
-  padding: 1em 2em 3em 2em;
+  padding: 1em;
 }
 
-.nav a {
+.menu {
   float: right;
   display: inline-block;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin: 0 1em;
   font-size: 16px;
   font-family: 'Permanent Marker', cursive;
   color: #1C3954;
   letter-spacing: 0.7px;
 }
 
-#intro_box {
-  border: 2px solid blue;
-  outline: 2px solid black;
-  outline-offset: 5px;
-}
-
 #dr_who {
   position: relative;
   width: 100%;
   vertical-align: top;
+  align: left;
   margin-top: 1em;
 }
 
 #start {
-  position: absolute;
-  top: 5.9em;
-  position: absolute;
-  display: block;
-  width: 8.59em;
-  color: #1C3954;
-  margin-left: 2.28em;
-  letter-spacing: 0.038em;
-  line-height: 1.3em;
-  font-size: 40px;
-  font-family: 'Permanent Marker', cursive;
-  text-transform: uppercase;
-  background-color: rgba(255,255,255,0.8);
-  padding: 0.3em 0.6em 0.009em 0.6em;
+  font-family: 'Open Sans', sans-serif;
+  vertical-align: top;
+  margin: 0 auto;
+  line-height: 1.5em;
+  font-size: 25px;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  padding: 0.5em;
 }
 
-#discover {
-  position: absolute;
-  font-family: 'Open Sans', sans-serif;
-  top: 12.53em;
-  width: 13.65em;
-  rgba: #1C3954;
-  margin-left: 3.65em;
-  line-height: 1.5em;
-  letter-spacing: 0.038em;
-  font-size: 25px;
-  background-color: rgba(255,255,255,0.8);
-  padding: 0.01em 0.8em 0.6em 1.2em;
+#start a {
+  color: white;
+  text-decoration: none;
 }
 
 #learn_more {
@@ -132,7 +115,7 @@ body {
   margin-left: 6.8em;
   background-color: #D64A29;
   color: #F3F1F0;
-  padding: 1em 1em 1em 1em;
+  padding: 1em;
   border-radius: 125px;
   font-size: 25px;
   font-family: 'Open Sans', sans-serif;
@@ -140,11 +123,16 @@ body {
   display: block;
 }
 
+.bb8 {
+  margin: 1em 0em;
+}
+
 #hero {
-  display: block;
-  position: relative;
   vertical-align: top;
-  width: 50%;
+  margin: 0em;
+  width: 48%;
+  border: 1px solid black;
+  padding: 0.5em 0.5em 1.2em 0.5em;
 }
 
 #herotitle {
@@ -164,17 +152,53 @@ body {
 }
 
 #herodescription {
+  vertical-align: top;
   font-family: 'Open Sans', sans-serif;
-  position: absolute;
-  top: 39.5em;
-  width: 45%;
+  width: 47.8%;
   rgba: #1C3954;
   line-height: 1.5em;
   letter-spacing: 0.038em;
   font-size: 20px;
-  background-color: rgba(255,255,255,0.8);
-  padding: 0.5em 0.8em 0.6em 1.2em;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  padding: 0.5em;
+  margin: 0em;
 }
+
+#herodescription a{
+  color: white;
+  text-decoration: none;
+}
+
+#create_board {
+    margin: 0em;
+    width: 48%;
+    float: right;
+    border: 1px solid black;
+    padding: 0.5em;
+    vertical-align: top;
+    display: inline-block;
+  }
+
+#board {
+    display: inline-block;
+    float: right;
+    color: #D64A29;
+    font-size: 20px;
+    width: 47.6%;
+    rgba: #1C3954;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 0.5em;
+    margin: 0em;
+  }
+
+  #board a{
+    color: white;
+    text-decoration: none;
+  }
 
 #recipe_button {
   border-radius: 25px;
@@ -281,29 +305,11 @@ body {
   background-color: #D64A29;
   color: #F3F1F0;
   margin-left: 10px;
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   display: inline-block;
-  vertical-align: top;
-}
-
-.features {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.board {
-  display: inline-block;
-  border: 1px solid #979797;
-  border-radius: 1.5625em;
-  color: #D64A29;
-  font-size: 25px;
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  padding: 50px 50px 50px 50px;
   vertical-align: top;
 }
 
@@ -316,7 +322,7 @@ body {
   width: 200px;
   height: 200px;
   text-align: center;
-  padding: 50px 50px 50px 50px;
+  padding: 50px;
   vertical-align: top;
 }
 
@@ -329,7 +335,7 @@ body {
   width: 200px;
   height: 200px;
   text-align: center;
-  padding: 50px 50px 50px 50px;
+  padding: 50px;
   vertical-align: top;
 }
 
